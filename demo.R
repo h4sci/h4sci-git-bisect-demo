@@ -4,8 +4,9 @@ a_plus_b <- function(a, b){
     a <- 3
   }
 
+  msg <- sprintf("Input a = %d and b = %d \n result is:", a,b)
 
-  message("The result is:")
+  message(msg)
   out <- a + b
   out
 }
