@@ -1,5 +1,9 @@
 a_plus_b <- function(a, b){
 
+  a <- as.numeric(a)
+  b <- as.numeric(b)
+
+
   if(a == "2"){
     a <- 3
   }
