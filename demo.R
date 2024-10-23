@@ -1,5 +1,8 @@
 a_plus_b <- function(a, b){
 
+  # make sure everything is numeric
+  # because we need numeric data for
+  # the sum operator to work. 
   a <- as.numeric(a)
   b <- as.numeric(b)
 
